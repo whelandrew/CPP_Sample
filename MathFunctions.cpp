@@ -1,6 +1,7 @@
 #include "stdafx.h"
 #include "MathFunctions.h"
 
+
 MathFunctions::MathFunctions(int* nums, int size)
 {
 	numArray = nums;
@@ -10,7 +11,7 @@ MathFunctions::MathFunctions(int* nums, int size)
 
 MathFunctions::~MathFunctions()
 {
-	delete [] numArray;
+	delete[] numArray;
 	arraySize = NULL;
 }
 
@@ -22,7 +23,7 @@ void MathFunctions::CalculateAverage()
 
 	for (i = 0; i < arraySize; i++)
 	{
-		total +=numArray[i];
+		total += numArray[i];
 		average = total / arraySize;
 	}
 

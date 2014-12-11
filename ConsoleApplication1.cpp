@@ -2,26 +2,22 @@
 //
 
 #include "stdafx.h"
-#include "PrintMatches.h"
-#include "ReverseSentence.h"
-#include <cstdio>
+#include "GUI.h"
 
-PrintMatches* match;
-ReverseSentence* sen;
+GUI* g;
 
-char* fileLocation = "Text.txt";
-char* newFileName = "coordinates.txt";
+using namespace std;
+
+
 
 int _tmain(int argc, _TCHAR* argv[])
 {	
-	sen = new ReverseSentence("Turn around, bright eyes");
-	sen->reverseWords();
+	g = new GUI();
+	g->MainMenu();
+	
 
-	match = new PrintMatches(0, 11);
-	match->printMatches(fileLocation);
-	match->writeToFile(newFileName);
-
-	getchar();
+	
+	
+	
 	return 0;
 }
-
