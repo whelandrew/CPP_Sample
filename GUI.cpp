@@ -19,6 +19,17 @@ GUI::GUI()
 	match = new PrintMatches(0, 11);
 	perm = new Permutation();
 	math = new MathFunctions(MATHARRAY, 10);
+
+	MATHARRAY[0] = 1;
+	MATHARRAY[1] = 6;
+	MATHARRAY[2] = 3;
+	MATHARRAY[3] = 3;
+	MATHARRAY[4] = 8;
+	MATHARRAY[5] = 4;
+	MATHARRAY[6] = 5;
+	MATHARRAY[7] = 2;
+	MATHARRAY[8] = 7;
+	MATHARRAY[9] = 5;
 }
 
 
@@ -106,6 +117,8 @@ void GUI::RunFunction(int selection)
 		Next();
 		break;
 	case 8:
+		sen->iToA(123);
+		Next();
 		break;
 	default:
 		printf("You did not enter a valid selection\n");
@@ -166,6 +179,7 @@ void GUI::MainMenu()
 	printf("\n 5 - Reverse Sentence");
 	printf("\n 6 - Print Matches");
 	printf("\n 7 - Permutation");
+	printf("\n 8 - iToA");
 
 	printf("\n 0 - Exit");
 

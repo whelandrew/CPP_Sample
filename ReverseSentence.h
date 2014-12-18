@@ -20,6 +20,7 @@ public:
 	~ReverseSentence();
 
 	void reverseWords();
+	void iToA(int);
 
 	char* newSentence;
 private:

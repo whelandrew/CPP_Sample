@@ -19,6 +19,18 @@ ReverseSentence::~ReverseSentence()
 	newSentence = 0;
 }
 
+void ReverseSentence::iToA(int num)
+{
+	std::string numChar="";
+	while (num > 0)
+	{
+		numChar += (char)(num % 10);
+		num /= 10;
+	} 
+
+	printf("Printing Int as String\n%s\n", numChar.c_str());
+}
+
 void ReverseSentence::reverseWords()
 {
 	printf("ORIGINAL SENTENCE:\n%s\n\nSENTENCE REVERSED:\n", newSentence);
