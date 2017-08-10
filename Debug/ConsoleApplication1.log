@@ -1,10 +1,28 @@
-﻿Build started 12/18/2014 11:58:43 AM.
-     1>Project "C:\Users\Kromputer\Documents\Visual Studio 2013\Projects\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.vcxproj" on node 2 (Build target(s)).
+﻿Build started 4/6/2015 3:39:25 PM.
+     1>Project "G:\Projects\CPP_Sample\ConsoleApplication1.vcxproj" on node 2 (Build target(s)).
      1>ClCompile:
-         G:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _CRT_SECURE_NO_WARNINGS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\ConsoleApplication1.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt ReverseSentence.cpp
+         G:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _CRT_SECURE_NO_WARNINGS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"Debug\ConsoleApplication1.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         G:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _CRT_SECURE_NO_WARNINGS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\ConsoleApplication1.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt ArrayDuplicates.cpp ConsoleApplication1.cpp GUI.cpp KnuthMorrisPratt.cpp MathFunctions.cpp Permutation.cpp PrintMatches.cpp ReverseSentence.cpp sorts.cpp
+         sorts.cpp
          ReverseSentence.cpp
+         PrintMatches.cpp
+     1>g:\projects\cpp_sample\printmatches.cpp(53): warning C4018: '<' : signed/unsigned mismatch
+     1>g:\projects\cpp_sample\printmatches.cpp(57): warning C4018: '<' : signed/unsigned mismatch
+     1>g:\projects\cpp_sample\printmatches.cpp(59): warning C4018: '<' : signed/unsigned mismatch
+     1>g:\projects\cpp_sample\printmatches.cpp(82): warning C4018: '<' : signed/unsigned mismatch
+     1>g:\projects\cpp_sample\printmatches.cpp(84): warning C4018: '<' : signed/unsigned mismatch
+         Permutation.cpp
+         MathFunctions.cpp
+         KnuthMorrisPratt.cpp
+         GUI.cpp
+     1>g:\projects\cpp_sample\gui.cpp(1): warning C4627: '#include <iostream>': skipped when looking for precompiled header use
+                 Add directive to 'stdafx.h' or rebuild precompiled header
+         ConsoleApplication1.cpp
+         ArrayDuplicates.cpp
+         Generating Code...
        Link:
-         G:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Kromputer\Documents\Visual Studio 2013\Projects\ConsoleApplication1\Debug\ConsoleApplication1.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Kromputer\Documents\Visual Studio 2013\Projects\ConsoleApplication1\Debug\ConsoleApplication1.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Kromputer\Documents\Visual Studio 2013\Projects\ConsoleApplication1\Debug\ConsoleApplication1.lib" /MACHINE:X86 Debug\ArrayDuplicates.obj
+         G:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"G:\Projects\CPP_Sample\Debug\ConsoleApplication1.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"G:\Projects\CPP_Sample\Debug\ConsoleApplication1.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"G:\Projects\CPP_Sample\Debug\ConsoleApplication1.lib" /MACHINE:X86 Debug\ArrayDuplicates.obj
          Debug\ConsoleApplication1.obj
          Debug\GUI.obj
          Debug\KnuthMorrisPratt.obj
@@ -14,9 +32,9 @@
          Debug\ReverseSentence.obj
          Debug\sorts.obj
          Debug\stdafx.obj
-         ConsoleApplication1.vcxproj -> C:\Users\Kromputer\Documents\Visual Studio 2013\Projects\ConsoleApplication1\Debug\ConsoleApplication1.exe
-     1>Done Building Project "C:\Users\Kromputer\Documents\Visual Studio 2013\Projects\ConsoleApplication1\ConsoleApplication1\ConsoleApplication1.vcxproj" (Build target(s)).
+         ConsoleApplication1.vcxproj -> G:\Projects\CPP_Sample\Debug\ConsoleApplication1.exe
+     1>Done Building Project "G:\Projects\CPP_Sample\ConsoleApplication1.vcxproj" (Build target(s)).
 
 Build succeeded.
 
-Time Elapsed 00:00:00.64
+Time Elapsed 00:00:04.23
